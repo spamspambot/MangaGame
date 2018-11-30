@@ -152,7 +152,7 @@ MonoBehaviour:
   - 15
   - 14
   velocities:
-  - 0.1
+  - 0.5
   - 0.1
   state: 0
   moving: 1
