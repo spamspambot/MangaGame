@@ -34,11 +34,8 @@ public class FoodScript : MonoBehaviour
 
         switch (state)
         {
-            case 07:
-                break;
-            case 06:
-                break;
             case 05:
+                if (Input.GetMouseButtonDown(0)) NextState();
                 break;
             case 04:
                 if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Pickup"))
@@ -46,14 +43,14 @@ public class FoodScript : MonoBehaviour
                     if (!reversed)
                     {
                         //chopsticks.transform.Translate(velocities[1], 0, 0);
-                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[6].position, ref zeroVector, velocities[0]);
+                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[6].position, ref zeroVector, velocities[3]);
                         if (Vector3.Distance(chopsticks.transform.position, positions[6].position) < threshold) reversed = true;
                     }
 
                     else
                     {
                         // chopsticks.transform.Translate(velocities[0], 0, 0);
-                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[7].position, ref zeroVector, velocities[0]);
+                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[7].position, ref zeroVector, velocities[3]);
                         if (Vector3.Distance(chopsticks.transform.position, positions[7].position) < threshold) reversed = false;
                     }
 
@@ -71,14 +68,14 @@ public class FoodScript : MonoBehaviour
                     if (!reversed)
                     {
                         //chopsticks.transform.Translate(velocities[1], 0, 0);
-                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[4].position, ref zeroVector, velocities[0]);
+                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[4].position, ref zeroVector, velocities[2]);
                         if (Vector3.Distance(chopsticks.transform.position, positions[4].position) < threshold) reversed = true;
                     }
 
                     else
                     {
                         // chopsticks.transform.Translate(velocities[0], 0, 0);
-                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[5].position, ref zeroVector, velocities[0]);
+                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[5].position, ref zeroVector, velocities[2]);
                         if (Vector3.Distance(chopsticks.transform.position, positions[5].position) < threshold) reversed = false;
                     }
 
@@ -96,14 +93,14 @@ public class FoodScript : MonoBehaviour
                     if (!reversed)
                     {
                         //chopsticks.transform.Translate(velocities[1], 0, 0);
-                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[2].position, ref zeroVector, velocities[0]);
+                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[2].position, ref zeroVector, velocities[1]);
                         if (Vector3.Distance(chopsticks.transform.position, positions[2].position) < threshold) reversed = true;
                     }
 
                     else
                     {
                         // chopsticks.transform.Translate(velocities[0], 0, 0);
-                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[3].position, ref zeroVector, velocities[0]);
+                        chopsticks.transform.position = Vector3.SmoothDamp(chopsticks.transform.position, positions[3].position, ref zeroVector, velocities[1]);
                         if (Vector3.Distance(chopsticks.transform.position, positions[3].position) < threshold) reversed = false;
                     }
 
@@ -145,7 +142,6 @@ public class FoodScript : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     NextState();
-                    camScript.NextCamera();
                 }
                 break;
 
@@ -154,14 +150,13 @@ public class FoodScript : MonoBehaviour
 
     public void NextState()
     {
+        camScript.NextCamera();
         state++;
         switch (state)
         {
-            case 07:
-                break;
-            case 06:
-                break;
+ 
             case 05:
+                chopsticks.SetActive(false);
                 break;
             case 04:
 
