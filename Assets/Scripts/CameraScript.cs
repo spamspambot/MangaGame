@@ -11,7 +11,6 @@ public class CameraScript : MonoBehaviour
     public int state;
     public bool moving;
 
-    public float velocity;
     Vector3 zeroVector = Vector3.zero;
     float zeroFloat = 0F;
     public float threshold;
