@@ -10,6 +10,8 @@ public class ChopstickScript : MonoBehaviour
     public GameObject cross;
     public GameObject circle;
     public FoodScript foodScript;
+    public GameObject wrongSfx;
+    public GameObject correctSfx;
     public float delay = 1F;
     // Start is called before the first frame update
     void Start()
@@ -20,8 +22,8 @@ public class ChopstickScript : MonoBehaviour
     {
         print("Obama"); if (isActive)
         {
-            if (other.CompareTag("Food")) { Instantiate(circle, positions[state].position, Quaternion.identity); state++; StartCoroutine("NextState"); isActive = false; }
-            else if (other.CompareTag("Blank")) { Instantiate(cross, positions[state].position, Quaternion.identity); state++; StartCoroutine("NextState"); isActive = false; }
+            if (other.CompareTag("Food")) { Instantiate(circle, positions[state].position, Quaternion.identity); state++; StartCoroutine("NextState"); isActive = false; Instantiate(correctSfx, transform.position, Quaternion.identity); }
+            else if (other.CompareTag("Blank")) { Instantiate(cross, positions[state].position, Quaternion.identity); state++; StartCoroutine("NextState"); isActive = false; Instantiate(wrongSfx, transform.position, Quaternion.identity); }
         }
      
     }

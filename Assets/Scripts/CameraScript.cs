@@ -8,6 +8,7 @@ public class CameraScript : MonoBehaviour
     public List<Transform> positions;
     public List<float> camSizes;
     public List<float> velocities;
+    public List<GameObject> sfx;
     public int state;
     public bool moving;
 
@@ -39,6 +40,8 @@ public class CameraScript : MonoBehaviour
     public void NextCamera()
     {
         state++;
+        if (sfx.Count >= state)
+            if (sfx[state] != null) Instantiate(sfx[state], transform.position, Quaternion.identity);
         moving = true;
     }
 }

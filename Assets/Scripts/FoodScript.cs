@@ -12,6 +12,7 @@ public class FoodScript : MonoBehaviour
     Vector3 zeroVector = Vector3.zero;
     public List<Transform> positions;
     public List<float> velocities;
+    public List<GameObject> sfx;
     public float threshold = 0.1F;
     bool reversed;
     Animator anim;
@@ -152,6 +153,7 @@ public class FoodScript : MonoBehaviour
     {
         camScript.NextCamera();
         state++;
+        if (sfx.Count >= state) if (sfx[state] != null) Instantiate(sfx[state], transform.position, Quaternion.identity);
         switch (state)
         {
  
