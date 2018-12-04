@@ -215,6 +215,7 @@ MonoBehaviour:
   state: 0
   nextScene: 0
   moving: 1
+  noSkip: 0
   threshold: 0.1
 --- !u!20 &519420031
 Camera:
@@ -614,6 +615,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 02032b172a457454b82d1d55e5330781, type: 3}
   - {fileID: 21300000, guid: d1b4e09f69ef84143be922ce6889af5c, type: 3}
   - {fileID: 21300000, guid: d1b4e09f69ef84143be922ce6889af5c, type: 3}
+  clickDelay: 0.3
 --- !u!4 &1823453815
 Transform:
   m_ObjectHideFlags: 0

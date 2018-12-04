@@ -16,7 +16,7 @@ public class OjouSamaScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //timerScript = Camera.main.GetComponent<>
+        //timerScript = Camera.main.GetComponent<>  
         sceneScript = Camera.main.GetComponent<SceneScript>();
         SR = GetComponent<SpriteRenderer>();
     }

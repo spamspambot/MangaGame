@@ -11,6 +11,8 @@ public class PokeScript : MonoBehaviour
     public SpriteRenderer SR;
     public List<Sprite> sprites;
     SceneScript sceneScript;
+   public float clickDelay;
+    bool canClick;
     bool hasEnd;
     // Start is called before the first frame update
     void Start()
@@ -22,7 +24,7 @@ public class PokeScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) NextState();
+        if (Input.GetMouseButtonDown(0) && canClick) { canClick = false; StartCoroutine("ClickDelay"); NextState(); }
         switch (state)
         {
             case 09:
@@ -43,7 +45,11 @@ public class PokeScript : MonoBehaviour
         }
     }
 
-
+    IEnumerator ClickDelay()
+    {
+        yield return new WaitForSeconds(clickDelay);
+        canClick = true;
+    }
     void NextState()
     {
         state++;

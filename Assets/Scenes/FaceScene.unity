@@ -644,6 +644,7 @@ MonoBehaviour:
   state: 0
   nextScene: 0
   moving: 1
+  noSkip: 1
   threshold: 0.1
 --- !u!20 &519420031
 Camera:
@@ -714,7 +715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f90cdc095ef4074196898c57062f5df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 5
+  delay: 3
 --- !u!1 &706799976
 GameObject:
   m_ObjectHideFlags: 0

@@ -21,7 +21,7 @@ public class SceneScript : MonoBehaviour
 
     public void LoadMainMenu()
     {
-        //  StartCoroutine("DelaySceneSwitch");
+    
         StartCoroutine("ReturnToMain");
     }
 

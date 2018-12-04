@@ -15,6 +15,7 @@ public class CameraScript : MonoBehaviour
     public bool moving;
     Vector3 zeroVector = Vector3.zero;
     float zeroFloat = 0F;
+    public bool noSkip;
     public float threshold;
 
     // Start is called before the first frame update
@@ -40,7 +41,7 @@ public class CameraScript : MonoBehaviour
 
     public void NextCamera()
     {
-        if(state == positions.Count-1)
+        if(state == positions.Count-1 && !noSkip)
         {
             SceneManager.LoadScene(nextScene);
         }

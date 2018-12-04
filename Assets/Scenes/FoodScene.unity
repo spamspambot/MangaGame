@@ -1007,6 +1007,7 @@ MonoBehaviour:
   state: 0
   nextScene: 0
   moving: 1
+  noSkip: 1
   threshold: 0.1
 --- !u!20 &519420031
 Camera:
