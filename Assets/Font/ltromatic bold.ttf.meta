@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 8c1efbc4f24d9ff4a998549a7a9af32b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: LetterOMatic!
+  fontNames:
+  - LetterOMatic!
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 7a177874224324441ad5fc9e66c02c60, type: 3}
+  - {fileID: 12800000, guid: 6e6e3b4eeb57c8f40b541e8280de6115, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
