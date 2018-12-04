@@ -2,18 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cursor : MonoBehaviour
+public class FailScript : MonoBehaviour
 {
-
+    public Sprite failSprite;
+    SpriteRenderer SR;
     // Start is called before the first frame update
     void Start()
     {
-
+        SR = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10));
+        if (TimerScript.hasFailed) { SR.sprite = failSprite; SR.sortingOrder = 10; }
     }
 }
