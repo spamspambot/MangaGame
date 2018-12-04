@@ -15,7 +15,9 @@ public class MouseProceed : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraScript>().NextCamera(); 
+            if (GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraScript>().moving != true) {
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraScript>().NextCamera();
+        }
         }
     }
 }
