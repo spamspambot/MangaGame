@@ -277,6 +277,8 @@ GameObject:
   m_Component:
   - component: {fileID: 341600866}
   - component: {fileID: 341600867}
+  - component: {fileID: 341600868}
+  - component: {fileID: 341600869}
   m_Layer: 0
   m_Name: 1
   m_TagString: Untagged
@@ -346,6 +348,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &341600868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341600865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2c074c3aafe51084f877bc7bd8f67b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: 3
+  shakeAmount: 0.2
+--- !u!114 &341600869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341600865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_GeneratorAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 2c074c3aafe51084f877bc7bd8f67b21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: 4
+  shakeAmount: 0.3
 --- !u!1 &1075059522
 GameObject:
   m_ObjectHideFlags: 0

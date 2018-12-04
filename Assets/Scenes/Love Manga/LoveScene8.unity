@@ -538,5 +538,10 @@ PrefabInstance:
       propertyPath: page
       value: 
       objectReference: {fileID: 157192473}
+    - target: {fileID: 8008656881263203784, guid: 5c075923e86175145a4e856bc58b11f4,
+        type: 3}
+      propertyPath: teleporting
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c075923e86175145a4e856bc58b11f4, type: 3}

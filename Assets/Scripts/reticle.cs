@@ -55,8 +55,9 @@ public class reticle : MonoBehaviour
                     page.GetComponent<SpriteRenderer>().sprite = sprite3;
                 }
             }
+            if (GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraScript>().moving != true) {
             GameObject.FindGameObjectWithTag("MainCamera").GetComponent<CameraScript>().NextCamera();
-
+        }
 
             Instantiate(gunSFX);
         }

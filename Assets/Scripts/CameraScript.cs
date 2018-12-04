@@ -13,8 +13,6 @@ public class CameraScript : MonoBehaviour
     public int state;
     public int nextScene;
     public bool moving;
-    public float shakeAmount;
-    public bool shake;
     Vector3 zeroVector = Vector3.zero;
     float zeroFloat = 0F;
     public float threshold;
@@ -38,12 +36,6 @@ public class CameraScript : MonoBehaviour
                 moving = false;
             }
         }
-
-        if(shake == true)
-        {
-
-        }
-
     }
 
     public void NextCamera()
