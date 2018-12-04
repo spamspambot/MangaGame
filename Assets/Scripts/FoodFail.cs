@@ -2,23 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FaceClickScript : MonoBehaviour
+public class FoodFail : MonoBehaviour
 {
-    public GameObject sfx;
+    public GameObject failObject;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnMouseOver()
-    {
-        if (Input.GetMouseButtonDown(0)) { if (sfx != null) Instantiate(sfx); Destroy(gameObject); }
+        if (TimerScript.hasWon) failObject.SetActive(false);
     }
 }

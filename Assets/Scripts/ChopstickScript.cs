@@ -23,7 +23,7 @@ public class ChopstickScript : MonoBehaviour
         print("Obama"); if (isActive)
         {
             if (other.CompareTag("Food")) { Instantiate(circle, positions[state].position, Quaternion.identity); state++; StartCoroutine("NextState"); isActive = false; Instantiate(correctSfx, transform.position, Quaternion.identity); }
-            else if (other.CompareTag("Blank")) { Instantiate(cross, positions[state].position, Quaternion.identity); state++; StartCoroutine("NextState"); isActive = false; Instantiate(wrongSfx, transform.position, Quaternion.identity); }
+            else if (other.CompareTag("Blank")) { Instantiate(cross, positions[state].position, Quaternion.identity); state++; StartCoroutine("NextState"); isActive = false; Instantiate(wrongSfx, transform.position, Quaternion.identity); TimerScript.hasFailed = true; }
         }
      
     }

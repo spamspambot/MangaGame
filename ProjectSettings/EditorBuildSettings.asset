@@ -50,4 +50,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: b96b44cc765c8874e9812d5246a8dcf6
+  - enabled: 1
+    path: Assets/Scenes/OhohoScenes.unity
+    guid: 2f5ba164f2f469441964fc700d77e5ce
+  - enabled: 1
+    path: Assets/Scenes/BoxScene.unity
+    guid: d951e8e78135fd44cab3d3bd0029574d
+  - enabled: 1
+    path: Assets/Scenes/FoodScene.unity
+    guid: f50307203942658488408f106990a821
+  - enabled: 1
+    path: Assets/Scenes/FaceScene.unity
+    guid: d48b24720e505784292cf9fcd468f6ac
+  - enabled: 1
+    path: Assets/Scenes/PokeScene.unity
+    guid: 25d980d034e1d0a428f3fe4ddb3c13b8
   m_configObjects: {}

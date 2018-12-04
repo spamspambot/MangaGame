@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FaceWin : MonoBehaviour
 {
+    SceneScript sceneScript;
     TimerScript timerScript;
     public GameObject startObject;
     bool hasStarted;
@@ -12,6 +13,8 @@ public class FaceWin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        sceneScript = Camera.main.GetComponent<SceneScript>();
         timerScript = GetComponent<TimerScript>();
 
     }
@@ -21,11 +24,12 @@ public class FaceWin : MonoBehaviour
     {
         if (startObject == null && !hasStarted) { hasStarted = true; timerScript.SetTimer(dur); }
 
-        if (transform.childCount <= 0 && !triggered && !TimerScript.hasFailed)
+        if (transform.childCount <= 0 && !triggered && !TimerScript.hasFailed && !TimerScript.hasWon)
         {
+            sceneScript.LoadMainMenu();
             print("Obama");
             triggered = true;
-            TimerScript.hasWon = true;
+            TimerScript.hasWon = true;  
         }
 
     }

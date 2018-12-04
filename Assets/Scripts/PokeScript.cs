@@ -10,12 +10,13 @@ public class PokeScript : MonoBehaviour
     public GameObject sfx;
     public SpriteRenderer SR;
     public List<Sprite> sprites;
-
-
+    SceneScript sceneScript;
+    bool hasEnd;
     // Start is called before the first frame update
     void Start()
     {
         camScript = Camera.main.GetComponent<CameraScript>();
+        sceneScript = Camera.main.GetComponent<SceneScript>();
     }
 
     // Update is called once per frame
@@ -50,7 +51,7 @@ public class PokeScript : MonoBehaviour
             Instantiate(sfx, transform.position, Quaternion.identity);
         if (state < 4 || state > 8)
             camScript.NextCamera();
-
+        if (state >= 9 && !hasEnd) { sceneScript.LoadMainMenu(); hasEnd = true; }
 
     }
 }

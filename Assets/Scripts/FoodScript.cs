@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FoodScript : MonoBehaviour
 {
+    SceneScript sceneScript;
     public CameraScript camScript;
     public int state;
     public GameObject chopsticks;
@@ -21,6 +22,7 @@ public class FoodScript : MonoBehaviour
     {
         anim = chopsticks.transform.GetChild(0).GetComponent<Animator>();
         camScript = Camera.main.GetComponent<CameraScript>();
+        sceneScript = Camera.main.GetComponent<SceneScript>();
         startPos = chopsticks.transform.position;
     }
 
@@ -36,7 +38,8 @@ public class FoodScript : MonoBehaviour
         switch (state)
         {
             case 05:
-                if (Input.GetMouseButtonDown(0)) NextState();
+                if (Input.GetMouseButtonDown(0)) { NextState(); sceneScript.LoadMainMenu(); }
+                if (!TimerScript.hasFailed && !TimerScript.hasWon) TimerScript.hasWon = true;
                 break;
             case 04:
                 if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Pickup"))
@@ -156,7 +159,7 @@ public class FoodScript : MonoBehaviour
         if (sfx.Count >= state) if (sfx[state] != null) Instantiate(sfx[state], transform.position, Quaternion.identity);
         switch (state)
         {
- 
+
             case 05:
                 chopsticks.SetActive(false);
                 break;
