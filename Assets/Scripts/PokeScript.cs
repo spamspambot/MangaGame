@@ -7,6 +7,7 @@ public class PokeScript : MonoBehaviour
     public bool hasFailed;
     public CameraScript camScript;
     public int state;
+    public GameObject sfx;
     public SpriteRenderer SR;
     public List<Sprite> sprites;
 
@@ -27,14 +28,14 @@ public class PokeScript : MonoBehaviour
                 if (!hasFailed) SR.sprite = sprites[3];
                 else SR.sprite = sprites[4]; break;
             case 08: SR.sprite = sprites[2]; break;
-            case 07: SR.sprite = sprites[0]; break;
+            case 07: SR.sprite = sprites[5]; break;
             case 06: SR.sprite = sprites[2]; break;
             case 05: SR.sprite = sprites[0]; break;
             case 04: SR.sprite = sprites[1]; break;
-            case 03: SR.sprite = sprites[1]; break;
-            case 02: SR.sprite = sprites[1]; break;
-            case 01: SR.sprite = sprites[1]; break;
-            case 00: SR.sprite = sprites[1]; break;
+            case 03: SR.sprite = sprites[0]; break;
+            case 02: SR.sprite = sprites[0]; break;
+            case 01: SR.sprite = sprites[0]; break;
+            case 00: SR.sprite = sprites[0]; break;
             default:
                 if (!hasFailed) SR.sprite = sprites[3];
                 else SR.sprite = sprites[4]; break;
@@ -45,6 +46,8 @@ public class PokeScript : MonoBehaviour
     void NextState()
     {
         state++;
+        if (state == 4 || state == 6 || state == 8)
+            Instantiate(sfx, transform.position, Quaternion.identity);
         if (state < 4 || state > 8)
             camScript.NextCamera();
 
