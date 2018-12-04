@@ -227,7 +227,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 5429881209136042235, guid: 97b0ebe4e5598ac4fa932538cd4c94c1, type: 3}
   state: 0
-  nextScene: 0
+  nextScene: 13
   moving: 1
   threshold: 0.1
 --- !u!81 &376935029
