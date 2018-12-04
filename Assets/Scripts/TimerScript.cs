@@ -9,33 +9,41 @@ public class TimerScript : MonoBehaviour
     public float timer;
     public static bool hasFailed;
     public static bool hasWon;
+    public static bool hasStarted;
+
     public GameObject correctSound;
     public GameObject failSound;
+
     // Start is called before the first frame update
     void Start()
     {
-        hasWon = false;
-        hasFailed = false;
-
+         hasWon = false;
+         hasFailed = false;
+         hasStarted = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!hasFailed && !hasWon)
+        if (!hasFailed && !hasWon && hasStarted)
         {
-            text.text = "" + (int)timer;
             timer = timer - Time.deltaTime;
+            text.text = "" + (int)timer;
+          
             if (timer <= 0)
             {
+                print("IsThisLoss");
                 hasFailed = true;
                 Instantiate(failSound, transform.position, Quaternion.identity);
             }
         }
     }
 
-    public void SetTimer(float time) {
+    public void SetTimer(float time)
+    {
+        text.gameObject.SetActive(true);
+        hasStarted = true;
+        hasFailed = false;
         timer = time;
-        hasFailed = true;
     }
 }
