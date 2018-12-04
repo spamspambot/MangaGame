@@ -17,6 +17,8 @@ public class PokeScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        canClick = true;
         camScript = Camera.main.GetComponent<CameraScript>();
         sceneScript = Camera.main.GetComponent<SceneScript>();
     }
