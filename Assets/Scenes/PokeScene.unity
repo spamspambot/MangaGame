@@ -210,12 +210,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 215561067448690737, guid: 3a7c60699a2f2ef45a383b5b8ccd880a, type: 3}
   - {fileID: 0}
-  - {fileID: 7853616874420938689, guid: c0aa4890499902d40975a933599e1956, type: 3}
+  - {fileID: 1792451091121066472, guid: c0aa4890499902d40975a933599e1956, type: 3}
   - {fileID: 0}
   state: 0
   nextScene: 0
   moving: 1
-  noSkip: 0
+  noSkip: 1
   threshold: 0.1
 --- !u!20 &519420031
 Camera:

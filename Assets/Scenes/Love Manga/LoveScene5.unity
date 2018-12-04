@@ -370,8 +370,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   state: 0
-  nextScene: 5
+  nextScene: 6
   moving: 1
+  noSkip: 0
   threshold: 0.1
 --- !u!81 &1447413292
 AudioListener:

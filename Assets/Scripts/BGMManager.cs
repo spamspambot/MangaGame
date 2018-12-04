@@ -42,26 +42,26 @@ public class BGMManager : MonoBehaviour
 
     void OnLevelWasLoaded()
     {
-        if(SceneManager.GetActiveScene().buildIndex == 0)
+        if(SceneManager.GetActiveScene().buildIndex == 1)
         {
             audiosource.clip = chillBGM;
         }
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             audiosource.clip = romanticBGM;
             audiosource.Play();
         }
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             audiosource.clip = villainBGM;
             audiosource.Play();
         }
-        if (SceneManager.GetActiveScene().buildIndex == 9)
+        if (SceneManager.GetActiveScene().buildIndex == 10)
         {
             audiosource.clip = comebackBGM;
             audiosource.Play();
         }
-        if (SceneManager.GetActiveScene().buildIndex == 12)
+        if (SceneManager.GetActiveScene().buildIndex == 13)
         {
             audiosource.Stop();
         }

@@ -365,8 +365,9 @@ MonoBehaviour:
   - {fileID: 8595953493018198482, guid: f110288095874804a928ef3910c73995, type: 3}
   - {fileID: 8595953493018198482, guid: f110288095874804a928ef3910c73995, type: 3}
   state: 0
-  nextScene: 8
+  nextScene: 9
   moving: 0
+  noSkip: 0
   threshold: 0.1
 --- !u!81 &1750871158
 AudioListener:

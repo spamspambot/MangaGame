@@ -226,8 +226,9 @@ MonoBehaviour:
   - 0.1
   sfx: []
   state: 0
-  nextScene: 2
+  nextScene: 3
   moving: 0
+  noSkip: 0
   threshold: 0.1
 --- !u!1 &311246609
 GameObject:

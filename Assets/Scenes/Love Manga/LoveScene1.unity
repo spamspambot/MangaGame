@@ -264,8 +264,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 3913607820981251756, guid: 154cdca3200f6f344826549bfb3f19d5, type: 3}
   state: 0
-  nextScene: 1
+  nextScene: 2
   moving: 0
+  noSkip: 0
   threshold: 0.1
 --- !u!1 &341600865
 GameObject:

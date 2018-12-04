@@ -28,7 +28,7 @@ public class SceneScript : MonoBehaviour
 
     IEnumerator ReturnToMain()
     {
-        asyncLoad = SceneManager.LoadSceneAsync(13);
+        asyncLoad = SceneManager.LoadSceneAsync(0);
         asyncLoad.allowSceneActivation = false;
         yield return new WaitForSeconds(delay);
         asyncLoad.allowSceneActivation = true;

@@ -202,7 +202,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -556,7 +556,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.574
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1665,7 +1665,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 60e95067bd807cf46b547403a4dfa05e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e70f7d88fbe01e9489bd067266d6af66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

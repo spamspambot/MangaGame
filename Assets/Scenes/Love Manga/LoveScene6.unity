@@ -162,8 +162,9 @@ MonoBehaviour:
   - {fileID: 3913607820981251756, guid: 154cdca3200f6f344826549bfb3f19d5, type: 3}
   - {fileID: 3953640616922113316, guid: ad7734f63a509624e87cadd982aee534, type: 3}
   state: 0
-  nextScene: 6
+  nextScene: 7
   moving: 0
+  noSkip: 0
   threshold: 0.1
 --- !u!81 &9733104
 AudioListener:

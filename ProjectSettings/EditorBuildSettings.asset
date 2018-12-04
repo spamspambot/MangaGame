@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b96b44cc765c8874e9812d5246a8dcf6
+  - enabled: 1
     path: Assets/Scenes/Love Manga/LoveScene1.unity
     guid: 263b3cd43dff7a34480dc82ec2035b62
   - enabled: 1
@@ -47,9 +50,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Love Manga/LoveScene13.unity
     guid: b05f649c45112cc40b45ecd566fa9f54
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: b96b44cc765c8874e9812d5246a8dcf6
   - enabled: 1
     path: Assets/Scenes/OhohoScenes.unity
     guid: 2f5ba164f2f469441964fc700d77e5ce

@@ -435,8 +435,9 @@ MonoBehaviour:
   - 0.75
   sfx: []
   state: 0
-  nextScene: 3
+  nextScene: 4
   moving: 0
+  noSkip: 0
   threshold: 0.1
 --- !u!81 &1780588107
 AudioListener:
