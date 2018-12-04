@@ -25,6 +25,8 @@ public class TimerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (hasFailed) text.gameObject.SetActive(false);
+
         if (!hasFailed && !hasWon && hasStarted)
         {
             timer = timer - Time.deltaTime;
