@@ -154,8 +154,11 @@ MonoBehaviour:
   velocities:
   - 0.5
   - 0.1
-  sfx: []
+  sfx:
+  - {fileID: 0}
+  - {fileID: 3763040030626876636, guid: 7db840b9849a5614baaa10e73011bb06, type: 3}
   state: 0
+  nextScene: 7
   moving: 1
   threshold: 0.1
 --- !u!81 &209337080
@@ -393,3 +396,141 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1863008997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1650563823184870964, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3913607820981251756, guid: 154cdca3200f6f344826549bfb3f19d5,
+        type: 3}
+      propertyPath: m_Name
+      value: cinematic impact
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 154cdca3200f6f344826549bfb3f19d5, type: 3}
+--- !u!1001 &7217463396870825833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520542717808325982, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5307558834861487371, guid: e38073e9503240c45b3be711cd0c0eb1,
+        type: 3}
+      propertyPath: m_Name
+      value: Pistol cocking sound effects (free)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e38073e9503240c45b3be711cd0c0eb1, type: 3}

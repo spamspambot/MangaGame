@@ -257,8 +257,14 @@ MonoBehaviour:
   - 0.75
   - 0.1
   - 0.1
-  sfx: []
+  sfx:
+  - {fileID: 0}
+  - {fileID: 1159908194703568339, guid: 92c4d6ad9b4976c489669d5e817fd38d, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 3913607820981251756, guid: 154cdca3200f6f344826549bfb3f19d5, type: 3}
   state: 0
+  nextScene: 1
   moving: 0
   threshold: 0.1
 --- !u!1 &341600865
@@ -526,3 +532,102 @@ Transform:
   m_Father: {fileID: 1685248748}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &8347415279411829435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.478084
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 14.582083
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.999878
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659006, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659001, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_Name
+      value: BGM
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347415279024659000, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: chillBGM
+      value: 
+      objectReference: {fileID: 8300000, guid: b146f1a3b273c0249b9f1cfb1d3a2838, type: 3}
+    - target: {fileID: 8347415279024659000, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: romanticBGM
+      value: 
+      objectReference: {fileID: 8300000, guid: cf6571c335a727b48997f11eebba5b6c, type: 3}
+    - target: {fileID: 8347415279024659000, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: villain
+      value: 
+      objectReference: {fileID: 8300000, guid: 242a5dcd7445cfc4994fd542870286fd, type: 3}
+    - target: {fileID: 8347415279024659000, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: villainBGM
+      value: 
+      objectReference: {fileID: 8300000, guid: 242a5dcd7445cfc4994fd542870286fd, type: 3}
+    - target: {fileID: 8347415279024659000, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: comebackBGM
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f0ba36e64d3851489b527649a526f30, type: 3}
+    - target: {fileID: 8347415279024659007, guid: 5524460eec21ffa478840c47560a5d63,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5524460eec21ffa478840c47560a5d63, type: 3}

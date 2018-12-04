@@ -113,6 +113,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &3342965
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263640874323893214, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3763040030626876636, guid: 7db840b9849a5614baaa10e73011bb06,
+        type: 3}
+      propertyPath: m_Name
+      value: punch and gun
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7db840b9849a5614baaa10e73011bb06, type: 3}
 --- !u!1 &118546894
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,8 +334,11 @@ MonoBehaviour:
   velocities:
   - 0.3
   - 0.1
-  sfx: []
+  sfx:
+  - {fileID: 0}
+  - {fileID: 0}
   state: 0
+  nextScene: 5
   moving: 1
   threshold: 0.1
 --- !u!81 &1447413292

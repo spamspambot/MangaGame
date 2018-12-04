@@ -157,8 +157,12 @@ MonoBehaviour:
   - 0.1
   - 0.1
   - 0.1
-  sfx: []
+  sfx:
+  - {fileID: 0}
+  - {fileID: 3913607820981251756, guid: 154cdca3200f6f344826549bfb3f19d5, type: 3}
+  - {fileID: 0}
   state: 0
+  nextScene: 6
   moving: 0
   threshold: 0.1
 --- !u!81 &9733104

@@ -222,6 +222,75 @@ Transform:
   m_Father: {fileID: 1202085262}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &558846377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432971732428816475, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2516982081073877387, guid: 42abba2ea286b3a40832e784b44f4608,
+        type: 3}
+      propertyPath: m_Name
+      value: bullet flying
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 42abba2ea286b3a40832e784b44f4608, type: 3}
 --- !u!1 &572899771
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,8 +395,12 @@ MonoBehaviour:
   - 0.25
   - 0.1
   - 0.1
-  sfx: []
+  sfx:
+  - {fileID: 0}
+  - {fileID: 428379544650522890, guid: f6d949e91f6c2aa48b8867b8286304b5, type: 3}
+  - {fileID: 3913607820981251756, guid: 154cdca3200f6f344826549bfb3f19d5, type: 3}
   state: 0
+  nextScene: 9
   moving: 1
   threshold: 0.1
 --- !u!81 &1171934913

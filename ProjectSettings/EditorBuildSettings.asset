@@ -5,7 +5,46 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene1.unity
+    guid: 263b3cd43dff7a34480dc82ec2035b62
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene2.unity
+    guid: 37c60f9a3c7df02418f9d0ec7e22eac6
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene3.unity
+    guid: 8dfa226e506f390438f30334df9eec9d
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene4.unity
+    guid: 144fe5ac0d98afb418f4c0ae565f2ec3
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene5.unity
+    guid: 82caba5723387d3458f431580e3cd15a
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene6.unity
+    guid: 45ce92cf85f6dd548ac1f92746ac0fbc
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene7.unity
+    guid: a44311cf6491dcb4bbc889e2d7e8d930
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene8.unity
+    guid: c1310273f011e074f8455b61c2f7f14e
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene9.unity
+    guid: c2ecbcb2d9c80364a951704d88cb3af2
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene10.unity
+    guid: 170e638001ca91644b3b839fe7fa2a16
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene11.unity
+    guid: 803a3aced9fb84042add079865baf56c
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene12.unity
+    guid: fc63771f52ac2054e9ffcc94328c4099
+  - enabled: 1
+    path: Assets/Scenes/Love Manga/LoveScene13.unity
+    guid: b05f649c45112cc40b45ecd566fa9f54
   m_configObjects: {}

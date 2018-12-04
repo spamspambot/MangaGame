@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraScript : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class CameraScript : MonoBehaviour
     public List<float> velocities;
     public List<GameObject> sfx;
     public int state;
+    public int nextScene;
     public bool moving;
 
     Vector3 zeroVector = Vector3.zero;
@@ -39,6 +41,10 @@ public class CameraScript : MonoBehaviour
 
     public void NextCamera()
     {
+        if(state == positions.Count-1)
+        {
+            SceneManager.LoadScene(nextScene);
+        }
         state++;
         if (sfx.Count >= state)
             if (sfx[state] != null) Instantiate(sfx[state], transform.position, Quaternion.identity);
